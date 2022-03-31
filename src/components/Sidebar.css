@@ -1,0 +1,44 @@
+.sidebar {
+  display: flex;
+  flex: 0.35;
+  height: 100vh;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  border-right: 1px solid lightgrey;
+}
+.sidebar_header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  height: 50px;
+}
+.sidebar_header > .avatar {
+  margin: 10px;
+  cursor: pointer;
+}
+.search {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  background-color: rgb(216, 216, 216);
+  justify-content: center;
+  border-radius: 5px;
+  color: grey;
+}
+.search > input {
+  border: none;
+  outline-width: 0;
+  display: flex;
+  flex: 1;
+  background-color: rgb(212, 212, 212);
+  padding-left: 5px;
+}
+.rateicon {
+  color: grey;
+}
+.sidebar_chat {
+  overflow: scroll;
+}
+.sidebar_chat::-webkit-scrollbar {
+  display: none;
+}
